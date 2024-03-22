@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ES6",
+    "module": "ES6",
+    "lib": ["ES6", "DOM"],
+    "moduleResolution": "node",
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "./lib",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/setup-jest.ts",
+    "**/test-utils.ts"
+  ]
+}
